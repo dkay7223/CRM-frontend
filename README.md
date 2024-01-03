@@ -1,5 +1,4 @@
-This project is part of a YouTube tutorial Create CRM ticket system with MERN stack from scratch to deploy to AWS
-Here is the playlist https://youtube.com/playlist?list=PLtPNAX49WUFN8yq2vEuAY6AhM5EJOXQQ0
+Cloud Computing Project
 
 ### Start project
 
