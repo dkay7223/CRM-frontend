@@ -1,0 +1,21 @@
+name: Automating
+
+on:
+  push:
+   branches: [ asd ]
+  pull_request:
+    branches: [ asd ]
+      
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build & Push Image
+      run: |
+        echo "${{ secrets.DOCKERPW }}" | docker login -u "dkay7223" --password-stdin 
+        docker build -t backend .
+        docker tag backend dkay7223/aws-frontend
+        docker push dkay7223/aws-frontend
