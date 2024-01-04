@@ -11,4 +11,4 @@ RUN npm run build
 
 EXPOSE 80
 ENV NODE_ENV=production
-CMD ["npm", "run", "start"]
+CMD ["npm","start"]
