@@ -1,5 +1,3 @@
-Absolutely! Here's a README template based on the provided project report:
-
 ---
 
 # Cloud-Based CRM Application for Ticketing and Issue Resolution
