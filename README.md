@@ -2,7 +2,7 @@
 
 # Cloud-Based CRM Application for Ticketing and Issue Resolution
 ### Backend:
-Here is the backend of this code:
+Here is the backend of this code
 https://github.com/dkay7223/CRM-client-API
 
 ## Overview
